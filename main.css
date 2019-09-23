@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+body {
+    background-color: #f2f2f2;
+    font-family: "lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333 ;
+}
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+
+}
+.centered {
+    text-align: center;
+}
+/* links */
+.navbar-brand i{
+    color: #ff7878;
+}
+.nav-link{
+    padding: 15px;
+    font-weight: 600;
+}
+.nav-item .active{
+    background: #ff7878;
+}
+/* section 1 */
+#headerwrap {
+    background: url("img/header-bg.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#headerwrap h1{
+    /*margin-top: 100px;*/
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+#headerwrap h2{
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* section 2 */
+#section2{
+    padding-top: 35px;
+}
+.w{
+    padding-top: 35px;
+}
+.col-lg-4 i{
+    color: #ff7878;
+    font-size: 30px;
+}
+/* section 3*/
+#section3{
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+#section3 h4 {
+    font-weight:  700;
+}
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
